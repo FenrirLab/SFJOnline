@@ -37,9 +37,8 @@
 #dropmenu{
 		
 		list-style-type: none;
-		width: 80%;
+		width: 800px;
 		height: 50px;
-		min-width: : 500px;
 		padding: 0;
 		margin-left: auto;
 		margin-right: auto;
@@ -172,8 +171,16 @@ dd{
 	padding: 5px 23px;
 	text-decoration: none;
 }
+.contents{
+	width: 800px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-footer p{ 
-	margin: 10px;
-
+footer {
+	margin:10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }

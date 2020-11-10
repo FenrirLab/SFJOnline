@@ -21,11 +21,9 @@
 }
 .swiper-container {
   /* 幅と高さ、最小高さの設定 */
-  width: 80%;
+  width: 800px;
   height: 600px;
-  min-width: 768px;
-  max-width: 1280px;
-  margin: 5px;
+  margin-top: 5px;
   margin-left: auto;
   margin-right: auto;
   position: relative;

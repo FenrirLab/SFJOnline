@@ -1,6 +1,6 @@
-var swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper-container', {
       /*autoplay loop*/
-      spaceBetween: 30,
+      spaceBetween: 0,
       loop: true,
       centeredSlides: true,
       autoplay: {
