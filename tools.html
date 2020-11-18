@@ -22,9 +22,9 @@
           <img class=logo alt="logo" src="img/logo.png" height="40">
       </a>
     </div>
-    
 
-    <nav> 
+
+    <nav>
       <ul id="dropmenu">
         <li>
           <a href="index.html">HOME </a>
@@ -55,41 +55,47 @@
       <div id="pagename">
         <h1>Tools</h1>
       </div>
-    	
+
 
       <div class="contents">
         <!--計算枠-->
         <div id="math">
           <!-- 排気量計算 -->
-          <form>
-            <h2>排気量</h2>
-            <label for="bore">ボア(mm)</label>
-            <input type="number" step="0.25" id="bore">
-            <label for="stroke">ストローク(mm)</label>
-            <input type="number" step="0.1" id="stroke">
+          <div class="math2">
+            <form>
+              <h2>排気量</h2>
+              <label for="bore">ボア(mm)</label>
+              <input type="number" step="0.25" id="bore">
+              <label for="stroke">ストローク(mm)</label>
+              <input type="number" step="0.1" id="stroke">
+            </form>
             <button id="button1">計算</button>
-          </form>
             <label for="resultform1">結果</label>
             <input type="text" id="resultform1">
-          <!-- mm inch変換 -->
-          <form>
-            <h2>mm→inch変換</h2>
-            <label for="inputmm">mm</label>
-            <input type="number" step="0.1" id="inputmm">
-            <button id="button2">換算</button>
-          </form>
+          </div>
+            <!-- mm inch変換 -->
+          <div class="math1">
+            <form>
+              <h2>mm→inch変換</h2>
+              <label for="inputmm">mm</label>
+              <input type="number" step="0.1" id="inputmm">
+            </form>
+            <button id="button2">mm→inch</button>
             <label for="resultform2">結果</label>
             <input type="text" id="resultform2">
-            <!--  -->
-          <form>
-            <h2>psi→kPa変換</h2>
-            <label for="inputvalue">psi</label>
-            <input type="number" step="0.1" id="inputvalue">
+          </div>
+            <!-- psi Kpa 換算 -->
+          <div class="math1">
+            <form>
+              <h2>psi⇔kPa変換</h2>
+              <label for="inputvalue"></label>
+              <input type="number" step="0.1" id="inputvalue">
+            </form>
             <button id="button3">psi→kPa</button>
             <button id="button4">kPa→psi</button>
-          </form>
             <label for="resultform3">結果</label>
             <input type="text" id="resultform3">
+          </div>
             <!--  -->
         </div>
       </div>

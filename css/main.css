@@ -17,8 +17,14 @@
 /*font-family:'M PLUS 1p', sans-serif*/
 /*font-weight:; 100 300 500 700 800;*/
 
+html{
+ scroll-behavior: smooth;
+}
+
 body{
 	font-family:'M PLUS 1p', sans-serif;
+	line-height: 1.5;
+
 }
 
 /*logo dropmenu*/
@@ -40,7 +46,6 @@ body{
 /**/
 
 #dropmenu{
-		
 	list-style-type: none;
 	width: 800px;
 	height: 50px;
@@ -186,6 +191,7 @@ dd{
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 .contents-block{
 	padding: 10px;
@@ -221,3 +227,14 @@ footer {
 }
 
 
+#Math{
+	margin: 10px;
+
+}
+.math1{
+	padding: 10px;
+}
+
+.math2{
+	padding: 10px;
+}
